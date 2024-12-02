@@ -33,7 +33,7 @@ faiss-cpu
 
 ### 运行方式
 
-配置完环境后（推荐使用conda进行环境配置），在当前目录下运行
+配置完环境后（推荐使用conda进行环境配置），更改client.py，master.py和slave.py中对应的目标主机IP地址，然后在当前目录下运行
 
 ```python
 python master.py  # on Master
