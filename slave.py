@@ -241,6 +241,9 @@ class Handler:
                 return_msg = f"{False}#{msg}"
                 return False, pickle.dumps(return_msg)
             else:
+                if not os.path.exists('data'):
+                    os.mkdir('data')
+                    
                 now_time = self.get_time()
                 OK_cal_key_hash, key_hash_value, msg = self.cal_key_hash(key)
                 logger.log(msg)
