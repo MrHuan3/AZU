@@ -1,8 +1,8 @@
-# AZU
-
-![1](./img/0.png)
+# Stop_it_AZU
 
 基于Python的分布式向量数据库
+
+![1](./img/0.png)
 
 ### 环境配置
 
